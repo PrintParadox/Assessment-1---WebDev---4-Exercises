@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Say to browser that this file is HTML5 -->
+
+<html lang="en">
+<!-- Tell page language is English -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Make text and symbols show correctly -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Let page resize good on phone or big screen -->
+
+    <title>J's Gallery</title>
+    <!-- Name that shows on browser tab -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Load our CSS file for styles -->
+</head>
+
+<body>
+<!-- Everything that user see on screen is inside body -->
+
+<header>
+    <!-- Top part of page with title and menu -->
+    <h1>J's Gallery</h1>
+    <nav>
+        <!-- Simple navigation links -->
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+    </nav>
+</header>
+
+<!-- === INTRO SECTION === -->
+<!-- First section with text and one image -->
+<section class="intro-section">
+    <div class="text-block">
+
+        <p>
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Praesent mollis adipiscing per id libero libero. Tempus pretium
+            netus molestie scelerisque facilisis tristique volutpat ultricies. Nostra ligula ac pulvinar rutrum non rhoncus mauris
+            facilisi. Quisque maximus commodo sollicitudin, montes congue imperdiet. Est malesuada vivamus vestibulum ante aenean
+            class. Per integer aptent ullamcorper sagittis posuere dignissim morbi scelerisque. Fringilla primis sagittis lorem
+            erat integer; vulputate nullam. Porta purus habitant id fermentum nec ex, proin mauris sem.
+        </p>
+
+        <div class="side-image">
+            <!-- Image placed on the side next to text -->
+            <img src="cow.jpg" alt="Cow Image">
+        </div>
+
+        <p>
+            Lectus ultrices nibh lobortis tempus facilisis sit conubia taciti. Non torquent amet nibh elit ante fermentum praesent
+            cras. Et suspendisse egestas eros erat aptent sollicitudin. Nulla tortor purus posuere auctor himenaeos malesuada.
+            Turpis phasellus enim venenatis aliquam pellentesque senectus, id ultrices. Praesent tellus consequat phasellus cubilia
+            mattis mauris natoque litora. Fringilla cursus montes inceptos nec venenatis platea.
+        </p>
+
+    </div>
+</section>
+
+<!-- === MEDIA GRID === -->
+<!-- Section showing many pictures and one video in grid layout -->
+<section class="media-grid">
+
+    <div class="media-item video-box">
+        <!-- Video element that user can play -->
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <img class="media-item" src="street.jpg" alt="Street Lights">
+    <img class="media-item" src="camera.jpg" alt="Camera">
+    <img class="media-item" src="mountains.jpg" alt="Mountains">
+    <img class="media-item" src="landscape.jpg" alt="Landscape">
+    <img class="media-item" src="car.jpg" alt="Car">
+
+</section>
+
+</body>
+</html>
