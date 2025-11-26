@@ -1,0 +1,107 @@
+<!doctype html>
+<!-- Tell browser this page use HTML5 -->
+
+<html lang="en">
+<!-- Say the language of this page is English -->
+
+<head>
+  <!-- Here we put info for browser, not things you see on page -->
+  <meta charset="utf-8" />
+  <!-- Make letters and symbols show correct -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Help page look ok on mobile and small screens -->
+
+  <title>Cooking with Robert!</title>
+  <!-- Name shown on the browser tab -->
+</head>
+
+<body>
+  <!-- All things the user sees go inside here -->
+
+  <header style="background-color: grey; padding: 20px;">
+    <!-- Top part of page with title and menu -->
+    <h1>Cooking with Robert!</h1>
+
+    <nav aria-label="Primary">
+      <!-- Navigation links to move around the page -->
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <!-- Go to home section -->
+
+        <li><a href="#blog">Blog</a></li>
+        <!-- Jump to blog text -->
+
+        <li><a href="#browse">Browse</a></li>
+        <!-- Jump to browse area (if exist) -->
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- Main content area of the page -->
+    <article>
+      <!-- One full piece of content (recipe here) -->
+
+      <header>
+        <!-- Small header for the article -->
+        <h2>Chocolate Chip Cookies</h2>
+        <p>Delicious homemade cookies with gooey chocolate chips!</p>
+      </header>
+
+      <section aria-labelledby="ingredients-heading">
+        <!-- This part shows what ingredients we need -->
+        <h3 id="ingredients-heading">Ingredients</h3>
+
+        <ul>
+          <!-- List for ingredients -->
+          <li>2 1/4 cups flour</li>
+          <li>1/2 teaspoon baking soda</li>
+          <li>1 cup unsalted butter, softened</li>
+          <li>1/2 cup granulated sugar</li>
+          <li>1 cup packed brown sugar</li>
+          <li>1 teaspoon vanilla extract</li>
+          <li>2 large eggs</li>
+          <li>2 cups semisweet chocolate chips</li>
+        </ul>
+
+        <aside aria-label="Egg substitute tip">
+          <!-- Extra info, not main recipe steps -->
+          <p style="background-color: grey; padding: 20px;">
+            <!-- Small advice box for people without eggs -->
+            If you don't have eggs, you can use a suitable egg substitute like
+            applesauce, mashed bananas, or yogurt. Use 1/4 cup of the
+            substitute for each egg in the recipe.
+          </p>
+        </aside>
+      </section>
+
+      <section aria-labelledby="instructions-heading">
+        <!-- Steps how to make the cookies -->
+        <h3 id="instructions-heading">Instructions</h3>
+
+        <ol>
+          <!-- Ordered list because need to follow steps in order -->
+          <li>Preheat your oven to 190°C.</li>
+          <li>In a small bowl, mix the flour and baking soda. Set aside.</li>
+          <li>In a large mixing bowl, cream together the softened butter,
+            granulated sugar, brown sugar, and vanilla extract until smooth.</li>
+          <li>Add the eggs one at a time, beating well after each addition.</li>
+          <li>Gradually add the flour mixture to the wet ingredients, mixing until well combined.</li>
+          <li>Stir in the chocolate chips.</li>
+          <li>Drop rounded tablespoons of dough onto ungreased baking sheets.</li>
+          <li>Bake in the oven for 8–10 minutes or until the edges are golden brown.</li>
+          <li>Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
+        </ol>
+      </section>
+
+      <footer style="background-color: grey; padding: 20px;">
+        <!-- Bottom part of article with copyright -->
+        <p id="blog">Cooking With Robert © 2024</p>
+        <!-- For link to scroll here -->
+      </footer>
+
+    </article>
+  </main>
+</body>
+</html>
