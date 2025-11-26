@@ -1,0 +1,72 @@
+body {
+    /* Set background color and basic text style for whole page */
+    background-color: #cfcfcf;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* Big white box in middle to hold all content */
+    background-color: white;
+    width: 75%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.main-title {
+    /* Style for main big title on top */
+    text-align: center;
+    color: #3ca000;
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    /* Smaller title under main title */
+    text-align: center;
+    color: #3ca000;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.section-title {
+    /* Titles for each part of the page */
+    text-align: center;
+    color: #3ca000;
+    font-size: 54px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+p {
+    /* Normal text paragraphs */
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.fact-box {
+    /* Green box for special information */
+    background-color: #3ca000;
+    padding: 25px 30px;
+    border-radius: 20px;
+    margin: 40px 0;
+    color: white;
+}
+
+.fact-title {
+    /* Title inside the fact box */
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0 0 10px;
+}
+
+.fact-text {
+    /* Text under the fact box title */
+    font-size: 20px;
+    margin: 0;
+}
