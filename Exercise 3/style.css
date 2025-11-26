@@ -1,0 +1,90 @@
+body {
+    /* Remove page margin and give light grey background */
+    margin: 0;
+    background: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER AREA */
+header {
+    /* Center the title and add space around it */
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    /* Big main title at the top */
+    font-size: 70px;
+    margin: 0;
+}
+
+/* TOP MENU LINKS */
+nav {
+    /* Small gap above the navigation */
+    margin-top: 10px;
+}
+nav a {
+    /* Style for the links in the menu */
+    margin: 0 25px;
+    font-size: 20px;
+    color: #0000ff;
+    text-decoration: none;
+}
+nav a:hover {
+    /* Underline link when mouse is on it */
+    text-decoration: underline;
+}
+
+.intro-section {
+    /* Middle container for intro text */
+    padding: 20px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.text-block {
+    /* Bigger text and nicer spacing */
+    font-size: 30px;
+    line-height: 1.5;
+    overflow: hidden; /* Stop float from breaking text layout */
+}
+
+.side-image {
+    /* Put image on the right side of text */
+    float: right;
+    width: 500px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.side-image img {
+    /* Make sure the image fits nice inside its box */
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    display: block;
+}
+
+/* GRID OF PHOTOS + VIDEO */
+.media-grid {
+    /* Flexbox layout to arrange items in rows */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+.media-item {
+    /* Size and crop style for pictures */
+    width: 40%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.video-box video {
+    /* Same size rules but for the video */
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
